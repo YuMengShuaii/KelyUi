@@ -1,0 +1,47 @@
+
+$textColor : #f4f4f4;
+$bgColor : #8f8f8f;
+
+.black_view {
+    background-color: $bgColor;
+    border-color:$textColor;
+    border-width: 10px;
+}
+
+.yellow_view{
+    color: $textColor;
+}
+
+.time_style {
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: auto;
+    width: wrap;
+    height: fit-content;
+    float: left;
+}
+
+.m_style{
+    color:black;
+    width: wrap;
+    height: wrap;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: auto;
+    float: left;
+}
+
+.time_parent{
+    float: right;
+    height: wrap;
+    width: wrap;
+    background-color: transparent;
+    overflow: hidden;
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
